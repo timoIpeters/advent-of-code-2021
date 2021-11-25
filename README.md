@@ -6,6 +6,7 @@ In this years Advent of Code I try to solve the puzzles in TypeScript.
 
 | Day | Part1 | Part2 |
 |-----|-------|-------|
+<<<<<<< HEAD
 | 01  |  <ul><li>- [x] </li><ul>  |  <ul><li>- [x] </li><ul>  |
 | 02  |  <ul><li>- [x]</li><ul>  |  <ul><li>- [x]</li><ul>  |
 | 03  |  <ul><li>- [x]</li><ul>  |  <ul><li>- [x]</li><ul>  |
