@@ -1,16 +1,20 @@
 import { Utility } from './utilities';
-import * as fs from 'fs';
 
 /** filename -> located in the data folder */
-const INPUT_FILE = 'test.txt';
-
-/** passing given input to the solve function */
-fs.readFile(`./data/${INPUT_FILE}`, 'utf-8', (err, data) => {
-  if (err) throw err;
-  solve(data);
-});
+const INPUT_FILE = 'blueprint.txt';
 
 /** solution */
-function solve(input: string): void {
-  console.log(`Result: ${input}`);
+function solvePartOne(): void {
+  const inputArr = Utility.readInputIntoStringArr(INPUT_FILE);
+
+  console.log(`PartTwo: ${inputArr}`);
 }
+
+function solvePartTwo(): void {
+  const inputArr = Utility.readInputIntoStringArr(INPUT_FILE);
+
+  console.log(`PartOne: ${inputArr}`);
+}
+
+solvePartOne();
+solvePartTwo();
