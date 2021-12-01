@@ -5,7 +5,7 @@ import * as fs from 'fs';
 const INPUT_FILE = 'test.txt';
 
 /** passing given input to the solve function */
-fs.readFile(`../data/${INPUT_FILE}`, 'utf-8', (err, data) => {
+fs.readFile(`./data/${INPUT_FILE}`, 'utf-8', (err, data) => {
   if (err) throw err;
   solve(data);
 });

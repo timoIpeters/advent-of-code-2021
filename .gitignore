@@ -58,6 +58,7 @@ scripts/*.js.map
 scripts/typings/
 coverage/
 internal/
+dist/
 **/.DS_Store
 .settings
 **/.vs
