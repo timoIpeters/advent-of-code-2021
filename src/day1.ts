@@ -14,7 +14,7 @@ function solvePartOne(): void {
     }
   }
 
-  console.log(`PartOne: ${count}`);
+  console.log(`Part One: ${count}`);
 }
 
 function solvePartTwo(): void {
@@ -33,8 +33,22 @@ function solvePartTwo(): void {
     }
   }
 
-  console.log(`PartTwo: ${count}`);
+  console.log(`Part Two: ${count}`);
+}
+
+function altSolvePartOne() {
+  const inputArr = Utility.readInputIntoNumArr(INPUT_FILE);
+  const res = inputArr.reduce((acc, curr, currIdx, arr) => curr > arr[currIdx - 1] ? acc + 1 : acc, 0);
+  console.log(`Alternative Part One: ${res}`);
+}
+
+function altSolvePartTwo() {
+  const inputArr = Utility.readInputIntoNumArr(INPUT_FILE);
+  const res = inputArr.map((val, idx, arr) => val + arr[idx+1] + arr[idx+2]).reduce((acc, curr, currIdx, arr) => curr > arr[currIdx - 1] ? acc + 1 : acc, 0);
+  console.log(`Alternative Part Two: ${res}`);
 }
 
 solvePartOne();
+altSolvePartOne();
 solvePartTwo();
+altSolvePartTwo();
