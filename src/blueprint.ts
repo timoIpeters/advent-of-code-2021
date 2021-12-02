@@ -7,13 +7,13 @@ const INPUT_FILE = 'blueprint.txt';
 function solvePartOne(): void {
   const inputArr = Utility.readInputIntoStringArr(INPUT_FILE);
 
-  console.log(`PartTwo: ${inputArr}`);
+  console.log(`Part One: ${inputArr}`);
 }
 
 function solvePartTwo(): void {
   const inputArr = Utility.readInputIntoStringArr(INPUT_FILE);
 
-  console.log(`PartOne: ${inputArr}`);
+  console.log(`Part Two: ${inputArr}`);
 }
 
 solvePartOne();
