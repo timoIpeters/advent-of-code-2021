@@ -15,4 +15,9 @@ export class Utility {
     let input = this.readInputFile(filename);
     return input.split('\r\n');
   }
+
+  public static splitInputByEmptyLine(filename: string): string[] {
+    let input = this.readInputFile(filename);
+    return input.split('\r\n\r\n');
+  } 
 }
