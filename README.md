@@ -10,7 +10,7 @@ In this years Advent of Code I try to solve the puzzles in TypeScript.
 | 02  |  <ul><li>- [X] </li><ul>  |  <ul><li>- [X] </li><ul>  |
 | 03  |  <ul><li>- [X] </li><ul>  |  <ul><li>- [X] </li><ul>  |
 | 04  |  <ul><li>- [ ] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
-| 05  |  <ul><li>- [ ] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
+| 05  |  <ul><li>- [X] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
 | 06  |  <ul><li>- [ ] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
 | 07  |  <ul><li>- [ ] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
 | 08  |  <ul><li>- [ ] </li><ul>  |  <ul><li>- [ ] </li><ul>  |
