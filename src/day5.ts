@@ -2,7 +2,7 @@ import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from 'constants';
 import { Utility } from './utilities';
 
 /** filename -> located in the data folder */
-const INPUT_FILE = 'day5_example.txt';
+const INPUT_FILE = 'day5_input.txt';
 
 class Interval {
   constructor(public x0: number, public y0: number, public x1: number, public y1: number){}
