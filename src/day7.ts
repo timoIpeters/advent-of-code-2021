@@ -15,9 +15,7 @@ function calcCostsToValLinearIncrements(values: number[], destVal: number) {
   let cost = 0;
   for(let val of values) {
     const diff = Math.abs(destVal - val);
-    for(let i = 1; i <= diff; i++) {
-      cost += i;
-    }
+    cost += (diff * (diff + 1)) / 2;
   }
   return cost;
 }
